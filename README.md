@@ -12,7 +12,8 @@
 - assets/images/optimized/ — адаптивные WebP-копии фотографий и обложка видео.
 - MEDIA-REPORT.md — перечень материалов, размещение, причины отбора и результаты проверки.
 - assets/images/placeholder-*.svg — прежние иллюстрации, больше не используются на странице.
-- assets/fonts/didact-gothic-regular.ttf — официальный Didact Gothic Regular с кириллицей, локально для всего интерфейса и текстов; лицензия OFL-Didact-Gothic.txt. Montserrat Alternates сохранён для фирменной текстовой части логотипа, прежние файлы Montserrat не удалены.
+- assets/fonts/didact-gothic-regular.ttf — официальный Didact Gothic Regular с кириллицей, локально для основного текста, интерфейса и текстовой части логотипа в шапке и футере; лицензия OFL-Didact-Gothic.txt.
+- assets/fonts/manrope-variable.ttf — официальный Manrope Variable (200–800), локально для заголовков H1–H3 с насыщенностью 700; лицензия OFL-Manrope.txt. Прежние файлы Montserrat сохранены.
 - assets/LUCIDE-LICENSE.txt — лицензия встроенных иконок.
 
 ## Как открыть

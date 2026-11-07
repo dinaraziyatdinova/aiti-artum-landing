@@ -219,13 +219,15 @@ html:not(.js) .header-inner{flex-wrap:wrap}html:not(.js) .navigation{display:fle
 .event-gallery .gallery-result img{object-position:50% 40%}
 .event-gallery .gallery-building img{object-position:50% 35%}
 
-/* Читаемый Didact Gothic: локальный официальный шрифт, логотип сохраняет начертание. */
+/* Локальная типографика: Didact Gothic для текста и логотипа, Manrope для заголовков. */
 @font-face{font-family:"Didact Gothic";src:url("../assets/fonts/didact-gothic-regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
-body,h1,h2,h3,.station-number,.step-top>span{font-family:"Didact Gothic",Montserrat,Arial,sans-serif}
+@font-face{font-family:Manrope;src:url("../assets/fonts/manrope-variable.ttf") format("truetype");font-style:normal;font-weight:200 800;font-display:swap}
+body,.brand-word,.brand-word small,.station-number,.step-top>span{font-family:"Montserrat",Montserrat,Arial,sans-serif}
 body{font-weight:400}
-h1,h2,h3{font-weight:400;letter-spacing:-.025em}
+.brand-word,.brand-word small{font-weight:400}
+h1,h2,h3{font-family:Manrope,"Didact Gothic",Arial,sans-serif;font-weight:700;letter-spacing:-.025em}
 .station-number,.step-top>span{font-weight:400}
-.hero h1{font-size:clamp(36px,3.25vw,46px);font-weight:400;line-height:1.15;letter-spacing:-.025em}
+.hero h1{font-size:clamp(36px,3.25vw,46px);font-weight:700;line-height:1.15;letter-spacing:-.025em}
 .hero-description{font-size:18px;line-height:1.7;color:var(--ink);max-width:560px}
 .hero-meta{font-size:14px;font-weight:400;line-height:1.65}
 .hero-media{--hero-owl-size:240px}
