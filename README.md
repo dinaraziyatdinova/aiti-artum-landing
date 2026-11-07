@@ -12,7 +12,7 @@
 - assets/images/optimized/ — адаптивные WebP-копии фотографий и обложка видео.
 - MEDIA-REPORT.md — перечень материалов, размещение, причины отбора и результаты проверки.
 - assets/images/placeholder-*.svg — прежние иллюстрации, больше не используются на странице.
-- assets/fonts/ — Montserrat и Montserrat Alternates с кириллицей, лицензии OFL.
+- assets/fonts/didact-gothic-regular.ttf — официальный Didact Gothic Regular с кириллицей, локально для всего интерфейса и текстов; лицензия OFL-Didact-Gothic.txt. Montserrat Alternates сохранён для фирменной текстовой части логотипа, прежние файлы Montserrat не удалены.
 - assets/LUCIDE-LICENSE.txt — лицензия встроенных иконок.
 
 ## Как открыть
@@ -21,7 +21,7 @@
 
 ## Фотографии и отзывы
 
-На странице уже размещены семь фотографий и одно видео, предоставленные организаторами. Точное распределение и имена исходников приведены в [MEDIA-REPORT.md](MEDIA-REPORT.md). Оригиналы находятся в assets/images/, облегчённые WebP-копии — в assets/images/optimized/.
+На странице уже размещены восемь фотографий и одно видео, предоставленные организаторами. Первый экран использует новый снимок преподавателя со школьниками у компьютера: assets/images/hero-computer-class-original.png и адаптивные WebP-копии hero-computer-class-640/1280.webp. Точное распределение и имена исходников приведены в [MEDIA-REPORT.md](MEDIA-REPORT.md). Оригиналы находятся в assets/images/, облегчённые WebP-копии — в assets/images/optimized/.
 
 Для замены фотографии обновите src, srcset, sizes, alt и реальные width/height в index.html. В галерее также обновите data-caption и data-full на кнопке: последняя ссылка открывает крупную версию в lightbox. Фотография первого экрана загружается приоритетно, остальные — лениво. Сохраняйте исходные пропорции при экспорте; положение кадра задаётся в css/style.css.
 

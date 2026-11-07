@@ -218,3 +218,21 @@ html:not(.js) .header-inner{flex-wrap:wrap}html:not(.js) .navigation{display:fle
 .event-gallery .gallery-computer img{object-position:45% 50%}
 .event-gallery .gallery-result img{object-position:50% 40%}
 .event-gallery .gallery-building img{object-position:50% 35%}
+
+/* Читаемый Didact Gothic: локальный официальный шрифт, логотип сохраняет начертание. */
+@font-face{font-family:"Didact Gothic";src:url("../assets/fonts/didact-gothic-regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+body,h1,h2,h3,.station-number,.step-top>span{font-family:"Didact Gothic",Montserrat,Arial,sans-serif}
+body{font-weight:400}
+h1,h2,h3{font-weight:400;letter-spacing:-.025em}
+.station-number,.step-top>span{font-weight:400}
+.hero h1{font-size:clamp(36px,3.25vw,46px);font-weight:400;line-height:1.15;letter-spacing:-.025em}
+.hero-description{font-size:18px;line-height:1.7;color:var(--ink);max-width:560px}
+.hero-meta{font-size:14px;font-weight:400;line-height:1.65}
+.hero-media{--hero-owl-size:240px}
+.hero-media .hero-owl{width:var(--hero-owl-size);height:var(--hero-owl-size);bottom:calc(var(--hero-owl-size) * -.19609375);left:-5px}
+.hero-photo-frame img{object-position:50% 50%}
+@media(min-width:1500px){.hero-media{--hero-owl-size:254px}}
+@media(max-width:1199px){.hero-media{--hero-owl-size:224px}.hero h1{font-size:40px}.hero-description{font-size:17px}.hero-meta{font-size:13px}}
+@media(max-width:1023px){.hero-media{--hero-owl-size:193px}.hero h1{font-size:clamp(30px,3.9vw,38px)}.hero-description{font-size:17px}.hero-meta{font-size:12px}}
+@media(max-width:767px){.hero h1{font-size:clamp(27px,7.45vw,34px);max-width:590px;line-height:1.18;letter-spacing:-.02em}.hero h1>span{display:block}.hero-description{font-size:18px;line-height:1.65;margin-top:22px}.hero-meta{font-size:13px;line-height:1.7}.hero-media{--hero-owl-size:min(calc((100vw - 40px) * .524),251.52px)}.hero-media .hero-owl{width:52.4%;height:auto;left:0}}
+@media(max-width:374px){.hero-media{--hero-owl-size:calc((100vw - 32px) * .524)}.hero-description{font-size:17px}.hero-meta{font-size:12px}}
